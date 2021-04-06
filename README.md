@@ -3,4 +3,5 @@ My first github app...
 
 testing
 still going
-added black list to the list of problematic language (along with master, slave etc.)
+added blackList and master
+Still need to add things like getMaster() or getSlaveAddress()
