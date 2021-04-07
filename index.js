@@ -21,6 +21,7 @@ http.createServer(function (req, res) {
   });
 }).listen(7777);
 
+// For a diff test
 var createApp = require('github-app');
 var fs = require('fs');
 
