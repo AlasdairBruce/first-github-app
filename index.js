@@ -1,6 +1,5 @@
 var createHandler = require('github-webhook-handler');
 var http = require('http');
-
 var handler = createHandler({
   path: '/',
   secret: 'myhashsecret'
@@ -21,6 +20,7 @@ http.createServer(function (req, res) {
   });
 }).listen(7777);
 
+// For a diff test about master and slave language
 var createApp = require('github-app');
 var fs = require('fs');
 
