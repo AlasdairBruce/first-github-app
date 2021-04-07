@@ -20,7 +20,7 @@ http.createServer(function (req, res) {
   });
 }).listen(7777);
 
-// For a diff test
+// For a diff test about master
 var createApp = require('github-app');
 var fs = require('fs');
 
